@@ -7,11 +7,11 @@
 ;; (load-theme 'tango t)
 
 ;; TODO: load them according daylight and daynight
-;; (use-package monokai-theme
-;;   :ensure t
-;;   ;; :config
-;;   ;; (load-theme 'monokai t)
-;;   )
+(use-package monokai-theme
+  :ensure t
+  ;; :config
+  ;; (load-theme 'monokai t)
+  )
 
 (use-package theme-changer
   :ensure t
