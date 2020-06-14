@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: lisp_file_header
+# key: lisp_file_header
+# --
+;;; package -- Summary
+;;; Commentary:
+;;; Code:
+
+;;; $1 ends here

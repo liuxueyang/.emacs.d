@@ -1,0 +1,23 @@
+# .emacs.d
+Simple Emacs Configuration
+
+<2019-10-29 二 12:25>
+1. =rename-uniquely= 可以用在想要创建多个 *shell* 的时候
+2. =add-hook= 怎么用？
+3. 如何在所有的 major-mode 中默认开启 =auto-fill-mode=
+4. switch buffer 的时候，不能直接用 RET 来确认唯一的匹配结果，因为 RET
+   用来确认，想要补全，只能用 SPC/TAB
+5. =C-h w= 指定一个函数，然后显示出它的 key
+6. =C-h b= 多看看这个命令的输出，可以学到不少实用的东西
+7. =C-x 4 d= 在另外一个窗口中打开 dired，类似地， =C-x 4 C-f= 在另外一
+   个窗口中打开文件
+8. =C-x `= 可以在源码中跳转到下一个编译错误的地方，不用在
+   *compilation* 中跳转
+9. 默认的编译命令可以设置 =compile-command=
+
+<2020-02-16 日 09:03>
+use-package
+
+- =:init= 在加载包之前执行的配置
+- =:config= 在加载包之后执行的配置
+- =:commands= 为命令创建 autoload，当这个命令被使用的时候，这个命令所在的包才会被加载
